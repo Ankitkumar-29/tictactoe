@@ -59,20 +59,22 @@ check = (board) => {
     else {
         game = true;
     }
-    
+
+    if (!game) {
+        document.querySelector("#reset").style.display = "block";
+        return false;
+    }
+
     for (let i = 0; i < 9; i++) {
         if (board[i] === 0) {
             draw = false;
             break;
         }
     }
+
     if (draw) {
         alert("Game Draw");
         game = false;
-    }
-
-    if (!game) {
-        document.querySelector("#reset").style.display = "block";
     }
 
 }
