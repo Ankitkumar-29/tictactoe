@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/game.css">
+    <script src="js/index.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <h1 class="game-title">Tic Tac Toe</h1>
+    <div class="board">
+        <div class="row">
+            <div id="box1" class="col" onclick="turn(1)"></div>
+            <div id="box2" class="col" onclick="turn(2)"></div>
+            <div id="box3" class="col" onclick="turn(3)"></div>
+        </div>
+        <div class="row">
+            <div id="box4" class="col" onclick="turn(4)"></div>
+            <div id="box5" class="col" onclick="turn(5)"></div>
+            <div id="box6" class="col" onclick="turn(6)"></div>
+        </div>
+        <div class="row">
+            <div id="box7" class="col" onclick="turn(7)"></div>
+            <div id="box8" class="col" onclick="turn(8)"></div>
+            <div id="box9" class="col" onclick="turn(9)"></div>
+        </div>
+    </div>
+    <div class="player-turn">Go Player 1</div>
+    <button id="reset" class="btn" onclick="reset()">Reset</button>
+</body>
+
+</html>

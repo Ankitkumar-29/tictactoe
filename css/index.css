@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  background: #1f2833;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  height: inherit;
+  width: inherit;
+}
+
+.start-div {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  background: transparent;
+  color: white;
+  margin: auto;
+}
+
+.btn:hover {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: #66fcf1;
+  cursor: pointer;
+  margin: auto;
+}
+
+.game-title {
+  text-align: center;
+  color: #66fcf1;
+  font-size: calc(100vw * (0.07));
+}

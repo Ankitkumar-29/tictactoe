@@ -1,0 +1,35 @@
+.board {
+  width: 40%;
+  min-width: 300px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  background: transparent;
+  height: calc(100vh * (0.15));
+  width: calc(100vh * (0.15));
+  margin: 5px;
+  border: 1px white solid;
+  cursor: pointer;
+  color: #66fcf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(100vh * (0.1));
+}
+
+.player-turn {
+  text-align: center;
+  color: #66fcf1;
+  font-size: calc(100vh * (0.03));
+  margin: 20px;
+}
+
+#reset {
+  display: none;
+}
