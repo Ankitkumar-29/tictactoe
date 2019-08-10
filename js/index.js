@@ -75,6 +75,7 @@ check = (board) => {
     if (draw) {
         alert("Game Draw");
         game = false;
+        document.querySelector("#reset").style.display = "block";
     }
 
 }
